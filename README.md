@@ -3,7 +3,9 @@
 This repository provides a modular PyTorch implementation of DGCCA, designed to learn shared representations from multi-view data.
 The original DGCCA article is the following: 
 Adrian Benton, Huda Khayrallah, Biman Gujral, Dee Ann Reisinger, Sheng Zhang, and Raman Arora. Deep Generalized Canonical Correlation Analysis. The 4th Workshop on Representation Learning for NLP. 2019
+
 It is available at: https://www.aclweb.org/anthology/W19-4301/
+
 A Theano implementation of DGCCA is available at: https://bitbucket.org/adrianbenton/dgcca-py3
 
 ## 📂 Project Structure
