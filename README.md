@@ -46,6 +46,7 @@ python3 generate_data.py
 chmod +x run_dgcca.sh
 ./run_dgcca.sh
 ```
+Note on using your own data: To use this implementation with your own datasets, ensure your views are organised into separate .csv files. All files must have the same number of samples (rows) in the same order, as the model learns to correlate observations across views.
 
 ## 📊 Expected Outputs
 
@@ -56,8 +57,3 @@ Upon successful execution, the pipeline creates a `/results` directory locally. 
 * **`loss_history.csv`**: A CSV file containing the training loss for each epoch.
 * **`model_weights.pth`**: The saved state dictionary of the trained neural network.
 * **`config.json`**: A record of the specific hyperparameters used for the run.
-
-
-
-* **Original Exploration:** See `dgcca_colab.ipynb` for the initial prototyping and experimental results.
-* **Implementation Note:** This modular version was developed to move from experimental notebook code to a reproducible command-line interface.
