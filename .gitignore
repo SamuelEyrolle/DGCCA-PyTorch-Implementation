@@ -1,0 +1,6 @@
+env/
+.venv/
+__pycache__/
+results/
+data/*.csv
+.DS_Store
