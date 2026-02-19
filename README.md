@@ -51,7 +51,8 @@ chmod +x run_dgcca.sh
 
 Upon successful execution, the pipeline creates a `/results` directory locally. These files are ignored by Git to keep the repository clean, but will be available on your machine:
 
-* **`shared_G.csv`**: The learned shared latent representation (embeddings) for all samples across all views.
+* **`shared_G.csv`**: The learned shared latent representation (embeddings).
+* **`encoded_view_1.csv`, `encoded_view_2.csv`, etc.**: The projected embeddings for each individual view, mapped into the common latent space.
 * **`loss_history.csv`**: A CSV file containing the training loss for each epoch.
 * **`model_weights.pth`**: The saved state dictionary of the trained neural network.
 * **`config.json`**: A record of the specific hyperparameters used for the run.
