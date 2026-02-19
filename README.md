@@ -2,7 +2,7 @@
 
 This repository provides a modular PyTorch implementation of DGCCA, designed to learn shared representations from multi-view data.
 The original DGCCA article is the following: 
-Adrian Benton, Huda Khayrallah, Biman Gujral, Dee Ann Reisinger, Sheng Zhang, and Raman Arora. Deep Generalized Canonical Correlation Analysis. The 4th Workshop on Representation Learning for NLP. 2019
+Adrian Benton, Huda Khayrallah, Biman Gujral, Dee Ann Reisinger, Sheng Zhang, and Raman Arora. Deep Generalised Canonical Correlation Analysis. The 4th Workshop on Representation Learning for NLP. 2019
 
 It is available at: https://www.aclweb.org/anthology/W19-4301/
 
@@ -16,7 +16,7 @@ This repository contains the following core components:
     * `model.py`: Defines the `DeepGCCA` architecture and the `generalised_gcca_loss` loss function.
     * `utils.py`: Helper functions for data loading and reproducibility (seeding).
     * `main.py`: The execution script that orchestrates the training loop and saves artifacts.
-* **`run_dgcca.sh`**: A Bash script to run the entire pipeline with customizable hyperparameters (Learning Rate, Epochs, Latent Dimensions) without editing Python code.
+* **`run_dgcca.sh`**: A Bash script to run the entire pipeline with customisable hyperparameters (Learning Rate, Epochs, Latent Dimensions) without editing Python code.
 * **`generate_data.py`**: A utility script to create synthetic multi-view datasets for testing and validation.
 * **`requirements.txt`**: A list of the Python libraries required to run the project (PyTorch, NumPy, Pandas, etc.).
 * **`dgcca_colab.ipynb`**: The original Google Colab notebook used for initial prototyping and experimentation.
