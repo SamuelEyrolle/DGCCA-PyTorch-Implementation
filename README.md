@@ -23,6 +23,16 @@ This repository contains the following core components:
 
 ## 🛠 Setup and Installation
 
+If you downloaded the repository as a ZIP file, unzip it and navigate into the project directory:
+
+```bash
+# Unzip the downloaded repository
+unzip DGCCA-PyTorch-Implementation-main.zip
+
+# Enter the project directory
+cd DGCCA-PyTorch-Implementation-main
+```
+
 It is recommended to use a virtual environment to manage dependencies:
 
 ```bash
